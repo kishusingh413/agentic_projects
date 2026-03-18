@@ -311,3 +311,6 @@ Output uses bullet points, explicit units (EUR million, %, bps), and comparisons
 1. Create a FastAPI/Flask app
 2. Accept multipart file upload or image URLs
 3. Use `load_images()` and `analyze_financial_documents()` in the route handler
+
+
+python main.py --images "..\assets\WhatsApp Image 2026-03-14 at 2.38.54 PM.jpeg" "..\assets\WhatsApp Image 2026-03-14 at 2.39.28 PM.jpeg" -r investor -o summary.txt

@@ -1,0 +1,14 @@
+langgraph>=0.2.30
+langchain>=0.2.16
+langchain-openai>=0.1.22
+langchain-community>=0.2.12
+langchain-text-splitters>=0.2.4
+langchain-chroma>=0.1.4
+chromadb>=0.5.5
+duckduckgo-search>=6.2.6
+ddgs>=1.0.0
+tavily-python>=0.7.23
+pydantic>=2.7.4
+pydantic-settings>=2.3.4
+python-dotenv>=1.0.1
+tenacity>=8.3.0

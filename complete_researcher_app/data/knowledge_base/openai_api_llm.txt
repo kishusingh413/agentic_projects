@@ -1,0 +1,11 @@
+OpenAI API and LLM usage
+
+In this project we use an OpenAI chat model via LangChain.
+The system uses the LLM for:
+- Router classification: decide whether a query should go to web research, RAG, or direct LLM reasoning.
+- Draft generation: produce an initial answer when the router selects the LLM path.
+- Final summarization: synthesize and structure a final response using whatever evidence was gathered.
+
+The vector database (Chroma) uses embedding models to index local documents.
+At query time, the system embeds the user's question and retrieves the most similar chunks.
+

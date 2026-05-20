@@ -1,0 +1,11 @@
+{
+  "currency": "USD",
+  "notes": "Demo sidecar for offline runs (pair with sample_bill.png or any image path).",
+  "line_items": [
+    { "description": "Milk and eggs", "amount": 18.42, "category": "groceries" },
+    { "description": "Restaurant dinner", "amount": 64.9, "category": "dining" },
+    { "description": "Electric bill", "amount": 112.0, "category": "utilities" },
+    { "description": "Clothing", "amount": 49.99, "category": "shopping" },
+    { "description": "Streaming subscription", "amount": 15.99, "category": "entertainment" }
+  ]
+}

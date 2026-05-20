@@ -1,0 +1,13 @@
+RAG and Web Research
+
+Retrieval-Augmented Generation (RAG) is a pattern where you:
+1) Retrieve relevant passages from a knowledge base (often via embeddings and a vector DB),
+2) Provide those passages to an LLM to ground the answer.
+
+For up-to-date information (news, current events, "latest", "today"),
+you typically use web research instead of RAG.
+
+In a multi-agent system, the router decides which path to take:
+- Web research agent: search the internet and extract snippets/details.
+- RAG agent: retrieve from the local knowledge base.
+

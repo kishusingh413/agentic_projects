@@ -1,0 +1,9 @@
+langgraph>=0.2.55
+langchain-core>=0.3.45
+langchain-groq>=0.2.4
+langchain-openai>=0.3.0
+langchain-google-genai>=2.0.0
+langchain-ollama>=0.2.3
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+python-dotenv>=1.0.1

@@ -1,0 +1,19 @@
+LangGraph overview
+
+LangGraph is a framework for building agentic workflows as state machines (graphs).
+Instead of a single linear chain, you define nodes (steps) and edges (transitions).
+This allows conditional routing (e.g., choose a tool based on the question) and
+composition of specialized sub-agents.
+
+Key ideas:
+- State: a typed object that flows through the graph and is updated by nodes.
+- Nodes: functions or chains that read from state and return partial updates.
+- Edges: wiring between nodes, including conditional edges based on state.
+- Memory/checkpointing: LangGraph can persist state across calls (depending
+  on the configured checkpointer), enabling conversational context.
+
+In a multi-agent system, a router node can decide whether to:
+- Answer directly with an LLM,
+- Fetch live web information,
+- Or retrieve knowledge from a vector database (RAG).
+
